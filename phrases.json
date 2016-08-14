@@ -1,0 +1,93 @@
+{
+  "ending_good": [ "Overall, I loved this place and definitely would come here again!", 
+    "Will put this as one of my top places and would definitely recommend this place to anyone who asks.",
+    "One of my new favorite places, will definitely visit again.",
+    "One of the places I will definitely recommend to my friends and co workers."
+  ],
+
+  "intro_neutral": [ 
+    "I came here the other day with a friend for lunch.",
+    "I visited RESTAURANT_NAME recently for dinner.",
+    "The other day, I randomly passed by RESTAURANT_NAME and decided to try it out.",
+    "My friend and I decided to try RESTAURANT_NAME the other day."
+  ],
+
+
+  "type_intro": {
+    "template": ["values"],
+    "values": {
+      "neutral": [
+        "I came here the other day with a friend for lunch.", 
+        "I visited VAR_RESTAURANT_NAME recently for dinner.",
+        "The other day, I randomly passed by VAR_RESTAURANT_NAME and decided to try it out.",
+        "My friend and I decided to try VAR_RESTAURANT_NAME the other day."
+      ]
+    }
+  },
+
+  "type_ending": {
+    "template": ["values"],
+    "values": {
+      "good": [ 
+        "Overall, I loved this place and definitely would come here again!", 
+        "Will put this as one of my top places and would definitely recommend this place to anyone who asks.",
+        "One of my new favorite places, will definitely visit again.",
+        "One of the places I will definitely recommend to my friends and co workers."
+      ]
+    }
+  },
+
+  "type_profile": {
+    "template": ["values"],
+    "values": {
+      "busy": [
+        "Make sure you come here early because the place is very crowded.",
+        "The restaurant was very busy.",
+        "When I arrived, the place was packed. "
+      ],
+      "empty": [
+        "The place was empty.",
+        "There was no one here when I arrived.",
+        "The place was not crowded at all."
+      ],
+
+      "long_wait": [
+        "Make sure you come here early because there is a long wait.",
+        "There is always a long line here."
+      ],
+
+      "quiet": [
+        "The place was nice and quiet.",
+        "It was pleasant, no loud noises at all."
+
+      ],
+
+      "loud": [
+        "The place was really loud.",
+        "The place was very noisy"
+      ],
+
+      "hole_in_a_wall": [
+        "After long time searching, we finally found this hole in a wall.",
+        "This place was hard to find, it was a hole in a wall."
+      ],
+
+      "homey": [
+        "The place had a very homey feel to it.",
+        "The place was like a mom and pop shop, very homey."
+
+      ],
+
+      "modern": [
+        "Everything here was very modern and had a very clean feel to it.",
+        "The ambience had a very modern feel to it."
+      ]
+    }
+
+  }
+
+
+
+
+
+}
