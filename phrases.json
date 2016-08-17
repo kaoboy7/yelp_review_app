@@ -1,18 +1,4 @@
 {
-  "ending_good": [ "Overall, I loved this place and definitely would come here again!", 
-    "Will put this as one of my top places and would definitely recommend this place to anyone who asks.",
-    "One of my new favorite places, will definitely visit again.",
-    "One of the places I will definitely recommend to my friends and co workers."
-  ],
-
-  "intro_neutral": [ 
-    "I came here the other day with a friend for lunch.",
-    "I visited RESTAURANT_NAME recently for dinner.",
-    "The other day, I randomly passed by RESTAURANT_NAME and decided to try it out.",
-    "My friend and I decided to try RESTAURANT_NAME the other day."
-  ],
-
-
   "type_intro": {
     "template": ["values"],
     "values": {
@@ -25,14 +11,117 @@
     }
   },
 
+  "type_dish": {
+    "template": ["values"],
+    "values": {
+      "delicious": [
+        "The food was delicous. Really tasty, can't really complain.",
+        "The food tasted really good. All the ingredients worked together perfectly."
+      ],
+      "fresh_ingredients": [
+        "The food was good, the ingredients were fresh. Was really satisfied by the food.", 
+        "The food was great. All the ingredients I must say were really fresh. Can't complain at all. "
+      ],
+      "unique": [
+        "If I had to give one word to describe the food, it would be unique. I've never tasted anything like it and I must say I'm pretty satisfied.",
+        "The food was interesting. Can't really put a word to it but I would say it's worth trying. "
+      ],
+      "large_portion": [
+        "The food here was good and the portion was large. I couldn't finish it and had to take some home.",
+        "The portion for the food here was large. Definitely could share with a friend. "
+
+      ],
+      "bland": [
+        "The food was okay. Somewhat bland and not that much taste. Not the best I had.",
+        "The food was pretty bland. I feel like I could make something better."
+      ],
+      "not_tasty": [
+        "The food was not great at all. Was not tasty and definitely lacking in flavor.",
+        "The food was pretty bad. It did not taste that good."
+      ]
+    }
+  },
+
+  "type_best": {
+    "template": ["values"],
+    "values": {
+      "none": [
+        ""
+      ],
+      "food": [
+        "The best part of this place is definitely the food.",
+        "I would recommend coming here for the food."
+
+      ],
+      "service": [
+        "The service here is impeccable, one of the best.",
+        "The staff here was definitely very professional.",
+        "This place definitely has one of the best services I've ever encountered."
+      ],
+      "ambience": [
+        "The decor and ambience was definitely one of the highlights.",
+        "The place definitely had a really great feel to it.",
+        "One of the best things about this place was the atmosphere and the way they presented everything."
+      ],
+      "portion": [
+        "The large food portion was definitely the best part of this place.",
+        "If I ever need large portions of food, I will come here."
+      ],
+      "price": [
+        "The price to quality of food is probably the best part here.",
+        "The affordable price of the food was definitely one of the highlights."
+      ]
+    }
+  },
+
+  "type_worst": {
+    "template": ["values"],
+    "values": {
+      "none": [
+        ""
+      ],
+      "food": [
+        "But one thing I wish that could have been better was the food.",
+        "The food was the worst part of the place"
+
+      ],
+      "service": [
+        "The worst part of the place was the service.",
+        "But one thing that could be improved is definitely the service."
+      ],
+      "ambience": [
+        "The way things are presented could definitely be improved."
+      ],
+      "portion": [
+        "The small portions was one of the negatives of this place.",
+        "I do wish though that the portions were a little bigger."
+      ],
+      "price": [
+        "This is a place, though, I probably cannot afford for that long",
+        "I do wish though that this place would have been a little bit more affordable for me."
+      ]
+    }
+  },
+
   "type_ending": {
     "template": ["values"],
     "values": {
+      "bad": [
+        "So this place is OK. Nothing special and will probably try some other place first before visitng again.",
+        "Overall, will probably not come here again. Good to try once but that's about it.",
+        "Yea, so in summary, nothing too special or interesting here. Will try other places next time."
+      ]
+      ,
       "good": [ 
         "Overall, I loved this place and definitely would come here again!", 
         "Will put this as one of my top places and would definitely recommend this place to anyone who asks.",
         "One of my new favorite places, will definitely visit again.",
         "One of the places I will definitely recommend to my friends and co workers."
+      ],
+      "very_good": [
+        "So if you have not been here yet, definitely come check this place out as soon as possible! It's worth your money.", 
+        "Overall, one of the best places I have been! Super satisfied and will be back soon!",
+        "So yea...if you have not been here yet, you should come visit soon! Promise it's worth your time."
       ]
     }
   },

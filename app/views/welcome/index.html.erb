@@ -1,77 +1,108 @@
     <div class="container">
-      <h1>Yelp Review Generator</h1>
+      <h1><span>Y</span>elp <span>R</span>eview <span>G</span>enerator</h1>
       <br>
 
       <form class="form-horizontal" role="form" action="welcome/show" method="get">
         <div class="form-group">
           <label class="control-label" for="restaurant">Restaurant</label>
           <div>
-            <input type="text" class="form-control" name="restaurant" placeholder="Enter Restaurant Name">
+            <input type="text" class="form-control" name="restaurant" placeholder="Enter Restaurant Name" required>
           </div>
         </div>
 
         <div class="form-group">
           <label class="control-label" for="overall">Overall</label>
-          <div>
-          <label class="radio-inline"><input type="radio" name="overall" value="very_good">Very Good</label>
-          <label class="radio-inline"><input type="radio" name="overall" value="good">Good</label>
-          <label class="radio-inline"><input type="radio" name="overall" value="bad">Bad</label>
-          </div>
+          <table>
+          <tr class="radioRow">
+              <td>
+                <label class="radio-inline"><input type="radio" name="overall" value="very_good" required>Very Good</label>
+              </td>
+              <td>
+                <label class="radio-inline"><input type="radio" name="overall" value="good">Good</label>
+              </td>
+              <td>
+                <label class="radio-inline"><input type="radio" name="overall" value="bad">Bad</label>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+
+
+
+        <div class="form-group">
+          <label class="control-label">Some things about the restaurant</label>
+          <table>
+            <% [['busy', 'empty'], ['long_wait', 'quiet'], ['loud', 'hole_in_a_wall'], ['homey', 'modern'] ].each do |value| %>
+            <tr>
+              <td>
+                <label class="checkbox-inline"><input type="checkbox" name="profile[]" value="<%=value[0]%>"><%=value[0].gsub('_', ' ')%></label>
+              </td>
+              <td>
+                <label class="checkbox-inline"><input type="checkbox" name="profile[]" value="<%=value[1]%>"><%=value[1].gsub('_', ' ')%></label>
+              </td>
+            </tr>
+            <% end %>
+          </table>
         </div>
 
         <div class="form-group">
-        <label class="control-label">Some things about the restaurant</label>
-        <div>
-          <% ['busy', 'empty', 'long_wait', 'quiet', 'loud', 'hole_in_a_wall', 'homey', 'modern' ].each do |value| %>
-          <label class="checkbox-inline"><input type="checkbox" name="description[]" value="<%= value %>"><%= value.gsub('_', ' ') %></label>
-          <% end %>
+          <label class="control-label">Some things about the food</label>
+          <table>
+            <% [['delicious', 'fresh_ingredients'], ['unique', 'large_portion'], ['bland', 'not_tasty'], ['cold', 'flavorful'] ].each do |value| %>
+            <tr>
+              <td>
+                <label class="checkbox-inline"><input type="checkbox" name="profile[]" value="<%=value[0]%>"><%=value[0].gsub('_', ' ')%></label>
+              </td>
+              <td>
+                <label class="checkbox-inline"><input type="checkbox" name="profile[]" value="<%=value[1]%>"><%=value[1].gsub('_', ' ')%></label>
+              </td>
+            </tr>
+            <% end %>
+          </table>
 
-        </div>
-        </div>
-
-        <% ['1', '2'].each do |form_number| %>
-        <div class="form-group">
-          <label class="control-label col-sm-2" for="overall">Dish <%= form_number %>:</label>
-          <br>
-          <div id="dish-group" class="col-sm-10">
-            <div class="form-group">
-              <label class="control-label col-sm-2" for="dish<%= form_number %>">Name:</label>
-              <div class="col-sm-8">
-                <input type="text" class="form-control" id="dish<%= form_number %>" name="dish<%= form_number %>[name]" placeholder="Enter Dish Name">
-              </div>
-            </div>
-            <div class="form-group">
-              <label class="control-label col-sm-2">Adjectives:</label>
-              <% ['Sweet', 'Savory', 'Tasty'].each do |adjective| %>
-              <label class="checkbox-inline"><input type="checkbox" name="dish<%= form_number %>[adjectives][]" value="<%= adjective %>"><%= adjective %></label>
-              <% end %>
-            </div>
-            <div class="form-group">
-              <label class="control-label col-sm-2">Overall:</label>
-              <label class="radio-inline"><input type="radio" name="dish<%= form_number %>[overall]" value="very_good">Very Good</label>
-              <label class="radio-inline"><input type="radio" name="dish<%= form_number %>[overall]" value="good">Good</label>
-              <label class="radio-inline"><input type="radio" name="dish<%= form_number %>[overall]" value="bad">Bad</label>
-            </div>
-          </div>
-        </div>
-        <% end %>
-
-        <div class="form-group">
-          <label class="control-label col-sm-2">Best</label>
-          <% ['Food', 'Service','Ambience'].each do |value| %>
-          <label class="radio-inline"><input type="radio" name="best" value="<%= value %>"><%= value %></label>
-
-          <% end %>
         </div>
 
         <div class="form-group">
-          <label class="control-label col-sm-2">Worst</label>
-          <% ['Food', 'Service','Ambience'].each do |value| %>
-          <label class="radio-inline"><input type="radio" name="worst" value="<%= value %>"><%= value %></label>
-          <% end %>
+          <label class="control-label">Best</label>
+          <table>
+            <% [['none', 'food', 'service'], ['ambience', 'portion', 'price']].each do |value| %>
+            <tr class="radioRow">
+              <td>
+                <label class="radio-inline"><input type="radio" name="best[]" value="<%= value[0] %>"><%= value[0] %></label>
+              </td>
+              <td>
+                <label class="radio-inline"><input type="radio" name="best[]" value="<%= value[1] %>"><%= value[1] %></label>
+              </td>                
+              <td>
+                <label class="radio-inline"><input type="radio" name="best[]" value="<%= value[2] %>"><%= value[2] %></label>
+              </td>
+            </tr>
+            <% end %>
+          </table>
         </div>
 
-        <input type="submit" value="Generate Review!">
+        <div class="form-group">
+          <label class="control-label">Worst</label>
+          <table>
+            <% [['none', 'food', 'service'], ['ambience', 'portion', 'price']].each do |value| %>
+            <tr class="radioRow">
+              <td>
+                <label class="radio-inline"><input type="radio" name="worst[]" value="<%= value[0] %>"><%= value[0] %></label>
+              </td>
+              <td>
+                <label class="radio-inline"><input type="radio" name="worst[]" value="<%= value[1] %>"><%= value[1] %></label>
+              </td>                
+              <td>
+                <label class="radio-inline"><input type="radio" name="worst[]" value="<%= value[2] %>"><%= value[2] %></label>
+              </td>
+            </tr>
+            <% end %>
+          </table>
+        </div>
+
+        <input class='btn btn-primary' type="submit" value="Generate!">
       </form>
-
     </div>
+    <br/>
+    <br/>
