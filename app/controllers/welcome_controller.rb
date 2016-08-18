@@ -1,5 +1,3 @@
-require 'pry'
-
 class WelcomeController < ApplicationController
 
   @@phrases = File.read("phrases.json")
