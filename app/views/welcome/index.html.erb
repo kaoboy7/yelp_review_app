@@ -52,10 +52,10 @@
             <% [['delicious', 'fresh_ingredients'], ['unique', 'large_portion'], ['bland', 'not_tasty'], ['cold', 'flavorful'] ].each do |value| %>
             <tr>
               <td>
-                <label class="checkbox-inline"><input type="checkbox" name="profile[]" value="<%=value[0]%>"><%=value[0].gsub('_', ' ')%></label>
+                <label class="checkbox-inline"><input type="checkbox" name="dish[]" value="<%=value[0]%>"><%=value[0].gsub('_', ' ')%></label>
               </td>
               <td>
-                <label class="checkbox-inline"><input type="checkbox" name="profile[]" value="<%=value[1]%>"><%=value[1].gsub('_', ' ')%></label>
+                <label class="checkbox-inline"><input type="checkbox" name="dish[]" value="<%=value[1]%>"><%=value[1].gsub('_', ' ')%></label>
               </td>
             </tr>
             <% end %>

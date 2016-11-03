@@ -6,7 +6,9 @@
         "I came here the other day with a friend for lunch.", 
         "I visited VAR_RESTAURANT_NAME recently for dinner.",
         "The other day, I randomly passed by VAR_RESTAURANT_NAME and decided to try it out.",
-        "My friend and I decided to try VAR_RESTAURANT_NAME the other day."
+        "My friend and I decided to try VAR_RESTAURANT_NAME the other day.",
+        "Decided to try out VAR_RESTAURANT_NAME after a long day of work.",
+        "After searching on our favorite site (Yelp), we decided to check out VAR_RESTAURANT_NAME."
       ]
     }
   },
@@ -16,28 +18,42 @@
     "values": {
       "delicious": [
         "The food was delicous. Really tasty, can't really complain.",
-        "The food tasted really good. All the ingredients worked together perfectly."
+        "The food tasted really good. All the ingredients worked together perfectly.",
+        "The food was great. Tasted super good and had a perfect blend of sweet and savory.",
+        "Yummm. That's all I have to say about the food. It was tastey and I was super satisfied",
+        "I must say the dishes were really really well done. From main course to desert, everything was well prepared and tasted really good.",
+        "The food was great. Everything was tasty. My taste buds are definitely satisfied."
       ],
       "fresh_ingredients": [
         "The food was good, the ingredients were fresh. Was really satisfied by the food.", 
-        "The food was great. All the ingredients I must say were really fresh. Can't complain at all. "
+        "The food was great. All the ingredients I must say were really fresh. Can't complain at all.",
+        "The food was really good. But I must say the ingredients are definitely top notch and super fresh.",
+        "I think what separates this resaturant from other restaurant is the quality of ingredients they use in their dishes. Really good.",
+        "The ingredients were really fresh and you can definitely tell it makes a difference."
       ],
       "unique": [
         "If I had to give one word to describe the food, it would be unique. I've never tasted anything like it and I must say I'm pretty satisfied.",
-        "The food was interesting. Can't really put a word to it but I would say it's worth trying. "
+        "The food was interesting. Can't really put a word to it but I would say it's worth trying.",
+        "I would say the dishes were definitely not your typical dishes. You definitely won't find them in many other places and they're actually pretty good.",
+        "Yea the food here is definitely unique. Still not sure if I enjoy it or not, but definitely worth a shot if you are an adventurous person.",
       ],
       "large_portion": [
         "The food here was good and the portion was large. I couldn't finish it and had to take some home.",
-        "The portion for the food here was large. Definitely could share with a friend. "
-
+        "The portion for the food here was large. Definitely could share with a friend.",
+        "One thing I must say, they give you a lot of food. You can share with a friend or bring it home. Most likely you won't be able to finish.",
+        "Lots and lots and lots of food. I am happy with their portion. Yup.",
+        "Did you know that an elephant is one of the biggest land animals?"
       ],
       "bland": [
         "The food was okay. Somewhat bland and not that much taste. Not the best I had.",
-        "The food was pretty bland. I feel like I could make something better."
+        "The food was pretty bland. I feel like I could make something better.",
+        "The food needed some more taste to it. It was pretty ordinary and nothing special."
       ],
       "not_tasty": [
         "The food was not great at all. Was not tasty and definitely lacking in flavor.",
-        "The food was pretty bad. It did not taste that good."
+        "The food was pretty bad. It did not taste that good.",
+        "Meow meow meow meow. That's what I have to say about the food. You interpret it.",
+        "The food did not taste good. I definitely could make something better."
       ]
     }
   },
@@ -50,8 +66,9 @@
       ],
       "food": [
         "The best part of this place is definitely the food.",
-        "I would recommend coming here for the food."
-
+        "I would recommend coming here for the food.",
+        "If anything, come here for the food",
+        "The highlight of this place is definitly the food"
       ],
       "service": [
         "The service here is impeccable, one of the best.",
@@ -65,11 +82,13 @@
       ],
       "portion": [
         "The large food portion was definitely the best part of this place.",
-        "If I ever need large portions of food, I will come here."
+        "If I ever need large portions of food, I will come here.",
+        "My favorite part of this place is the portion they give you"
       ],
       "price": [
         "The price to quality of food is probably the best part here.",
-        "The affordable price of the food was definitely one of the highlights."
+        "The affordable price of the food was definitely one of the highlights.",
+        "The best part of this place is the affordability of this place"
       ]
     }
   },
@@ -82,22 +101,30 @@
       ],
       "food": [
         "But one thing I wish that could have been better was the food.",
-        "The food was the worst part of the place"
+        "The food was the worst part of the place",
+        "One thing that can be improved is the quality of the food"
 
       ],
       "service": [
         "The worst part of the place was the service.",
-        "But one thing that could be improved is definitely the service."
+        "But one thing that could be improved is definitely the service.",
+        "If I could say one thing, I would say that the service could be improved.",
+        "One thing, maybe the staff was having a bad day, but the service definitely could be improved"
       ],
       "ambience": [
-        "The way things are presented could definitely be improved."
+        "The way things are presented could definitely be improved.",
+        "One thing though is the feel of the place is a little off. Can't really put a word to it."
       ],
       "portion": [
         "The small portions was one of the negatives of this place.",
-        "I do wish though that the portions were a little bigger."
+        "I do wish though that the portions were a little bigger though.",
+        "One thing, I thought the portions could have been bigger especially for the price",
+        "The one thing I wish was that the portions were a little bigger. I was still hungry."
       ],
       "price": [
         "This is a place, though, I probably cannot afford for that long",
+        "One thing, I can probably only come here every so often, the food was a little pricey",
+        "One thing, I didn't think the price for food and service was really worth it",
         "I do wish though that this place would have been a little bit more affordable for me."
       ]
     }
@@ -109,11 +136,15 @@
       "bad": [
         "So this place is OK. Nothing special and will probably try some other place first before visitng again.",
         "Overall, will probably not come here again. Good to try once but that's about it.",
-        "Yea, so in summary, nothing too special or interesting here. Will try other places next time."
+        "Yea, so in summary, nothing too special or interesting here. Will try other places next time.",
+        "I would say another ordinary place. Nothing memorable. May come here again but likely will try other places first.",
+        "Yea, this place is not amazing. Maybe I will give it another shot one of these days but for now, I would say not a memorable experience."
       ]
       ,
       "good": [ 
         "Overall, I loved this place and definitely would come here again!", 
+        "Yea, this place was pretty good, not super great. Will come here again every so often but not my go to place. But definitely try this place at least once.",
+        "This place was good. Can't complain and really enjoyed myself here. Check it out and this place won't disappoint.",
         "Will put this as one of my top places and would definitely recommend this place to anyone who asks.",
         "One of my new favorite places, will definitely visit again.",
         "One of the places I will definitely recommend to my friends and co workers."
@@ -121,7 +152,8 @@
       "very_good": [
         "So if you have not been here yet, definitely come check this place out as soon as possible! It's worth your money.", 
         "Overall, one of the best places I have been! Super satisfied and will be back soon!",
-        "So yea...if you have not been here yet, you should come visit soon! Promise it's worth your time."
+        "So yea...if you have not been here yet, you should come visit soon! Promise it's worth your time.",
+        "So yea in summary, if you have not tried this place you NEED to try it. One of my new favorite places and will be back soon!"
       ]
     }
   },
@@ -132,12 +164,13 @@
       "busy": [
         "Make sure you come here early because the place is very crowded.",
         "The restaurant was very busy.",
-        "When I arrived, the place was packed. "
+        "When I arrived, the place was packed."
       ],
       "empty": [
         "The place was empty.",
         "There was no one here when I arrived.",
-        "The place was not crowded at all."
+        "The place was not crowded at all.",
+        "The place had no one here when we arrived."
       ],
 
       "long_wait": [
@@ -147,13 +180,15 @@
 
       "quiet": [
         "The place was nice and quiet.",
-        "It was pleasant, no loud noises at all."
-
+        "It was pleasant, no loud noises at all.",
+        "This place is a good place for nice conversations, no loud noises at all",
+        "This place was so quiet you can probably hear crickets chirping"
       ],
 
       "loud": [
         "The place was really loud.",
-        "The place was very noisy"
+        "The place was very noisy",
+        "This place is definitely not good for having quiet conversations. It's really loud"
       ],
 
       "hole_in_a_wall": [
@@ -163,13 +198,16 @@
 
       "homey": [
         "The place had a very homey feel to it.",
-        "The place was like a mom and pop shop, very homey."
+        "The place was like a mom and pop shop, very homey.",
+        "This place reminded me of home, it was very comforting",
+        "The hospitality and ambience of this place reminded me of home"
 
       ],
 
       "modern": [
         "Everything here was very modern and had a very clean feel to it.",
-        "The ambience had a very modern feel to it."
+        "The ambience had a very modern feel to it.",
+        "All the decor had a very modern and new feel to it"
       ]
     }
 

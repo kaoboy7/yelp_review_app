@@ -43,6 +43,10 @@ class WelcomeController < ApplicationController
           return review
         end
         option = type_options_map[parent_type].sample
+        puts 'TEST'
+        puts parent_type
+        puts option
+        puts 'TEST END'
         sample = @@phrases_all["type_" + parent_type]["values"][option].sample
         normalize_sample!(sample)
         return review + " " + sample
